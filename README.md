@@ -66,4 +66,4 @@ Small chat app demo using RAG (Retrieval Augmented Generation) with Qdrant and A
 If you'd like to contribute, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
 
 ## License
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
