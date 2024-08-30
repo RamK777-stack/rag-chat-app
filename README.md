@@ -40,9 +40,10 @@ Small chat app demo using RAG (Retrieval Augmented Generation) with Qdrant and A
    - Create a `.env` file in the root of the project
    - Add the following variables:
      ```bash
-     NEXT_PUBLIC_QDRANT_URL=URL_TO_YOUR_QDRANT_COLLECTION
-     NEXT_PUBLIC_ANTHROPIC_API_KEY=your-api-key
-     NEXT_PUBLIC_VOYAGE_API_KEY=your-api-key
+     QDRANT_API_KEY=your-api-key
+     QDRANT_URL=URL_TO_YOUR_QDRANT_COLLECTION
+     ANTHROPIC_API_KEY=your-api-key
+     VOYAGE_API_KEY=your-api-key
      ```
 
 5. Run the development server:
@@ -57,8 +58,8 @@ Small chat app demo using RAG (Retrieval Augmented Generation) with Qdrant and A
 ## Usage
 
 - Upload a CSV file
-- Click on the "Chat" button
 - Ask questions about the CSV file
+- Click on the "Chat" button
 
 ## Contributing
 
